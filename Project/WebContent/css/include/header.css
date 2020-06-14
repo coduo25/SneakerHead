@@ -1,0 +1,42 @@
+@CHARSET "UTF-8";
+
+* {padding: 0; margin:0;}
+div { display: block;}
+body { min-width: 1300px; }
+
+#header { margin: 0 auto; background: #fff; width: 100%;}
+
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ  첫번째 헤더 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+#first_header { margin: 0px auto 0; height: 40px; z-index: 9; background: #E8E8E8;}
+#first_header .inner { position: relative; max-width: 1280px; margin: 0px auto 0;}
+
+/* 공지사항, Q/A, 이벤트 (왼쪽 상단 메뉴들) */
+.upboard { float: left; padding-left: 17px;}
+.upboard li { position: relative; float: left; font-size: 13px; padding-right: 20px; font-weight: 300; line-height: 40px; text-decoration: none; font-family: 'Noto Sans KR', sans-serif;  list-style:none; }
+.upboard li a { text-decoration: none; color: #000; }
+
+/* 로그인, 회원가입 (오른쪽 상단 메뉴들) */
+.uplogin { float: right; }
+.uplogin li { position: relative; float: left; font-size: 13px; padding-right: 20px; font-weight: 300; line-height: 40px; height: 40px; text-decoration: none; font-family: 'Noto Sans KR', sans-serif;  list-style:none;}
+.uplogin li a { text-decoration: none; color: #000; }
+
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ  로고 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+#logo { position: relative; max-width: 1280px; margin: 0px auto 0; text-align: center; padding: 30px 0;}
+#logo a { text-decoration: none; color: #000; font-family: 'Anton', sans-serif; font-size: 60px; text-decoration: underline;}
+
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ  두번째 헤더 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+#topmenu { position: relative; margin: 0px auto; padding: 0 0; height: 50px; line-height: 50px; border-top: 1px solid #cacaca; border-bottom: 1px solid #cacaca; background: #fff; width: 100%; z-index: 9; }
+#category { margin: 0px auto 0px; max-width: 1280px; padding: 0 0px; height: 50px; line-height: 50px; text-align: center; }
+#category .position { display: inline-block; }
+#category .position > ul { float: left; }
+#category .position > ul > li { position: relative; line-height: 50px; float: left; font-size: 13px; font-weight: 400; font-family: 'Noto Sans KR', sans-serif; list-style: none;}
+#category .position > ul > li > a { padding: 0px 80px; z-index: 11; color: #797979; text-decoration: none; letter-spacing: 0px; }
+#category .position > ul > li:hover .sub-category ul { display: block;}
+/* dropdown 메뉴들 */
+#category .sub-category { position: absolute; z-index: 10; top: 34px; left: 0px; background: #fff; padding-top: 14px; min-width: 100%; font-family: 'Noto Sans KR', sans-serif; }
+#category .sub-category ul { display: none; padding: 10px 10px; border: 1px solid #cacaca; border-top: 1px solid #fff; }
+#category .sub-category li { padding: 0 15px; line-height: 25px; position: relative; text-align: center; display: block; min-width: 80px; z-index: 10;}
+#category .sub-category li:hover { background-color: #E3E3E3;}
+#category .sub-category a { display: block; padding: 5px 0; font-size: 13px; color: #797979; text-decoration: none; font-weight: 400; }
+
+

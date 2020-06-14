@@ -1,0 +1,145 @@
+@CHARSET "UTF-8";
+
+* { box-sizing: border-box; }
+html { width: 100%; height: 100%; }
+body { margin: 0; padding: 0;}
+div { display: block; }
+
+#main_border { background-color: #E8E8E8; width: 100%; float: left; margin: 0px auto 0; }
+#main_content { font-family: 'Nanum Gothic', sans-serif;  margin-left: 300px; margin-right: 300px; background-color: #fff; }
+#bb_contentWrap { background: #fff; float: left; width: 100%; margin: 0 auto; }
+#bb_content { width: 1200px; margin: 0 auto; display: block; }
+
+/* 신발장 소제목 */
+#bb_content .sub_title, #bb_write_content .sub_title { margin: 30px auto 20px; width: 100%; text-align: center; }
+.sub_title h2 {display: inline-block; margin: auto; padding: 8px 70px; *display: inline; *zoom: 1; border-bottom: 1px solid #cacaca; font-size: 13px; font-weight: 500; letter-spacing: 0.5px;}
+
+/* 추가하기 버튼 */
+.table_add_tab {margin: 0 0px 4px 1px; clear: both; background-color: #009f62; border: transparent; color: #fff; letter-spacing: 0px; padding: 5px 15px; text-align: right; font-size: 14px; border-radius: 0px; font-weight: normal;}
+.table_add_tab:hover { background-color: #026E44;}
+.span_add { float: right; padding-bottom: 10px;}
+
+/* ────────────────────────────────────  게시판 메인 css ────────────────────────────────────────────────────── */
+.base_table { clear: both;}
+.base_table table.main_table_collection { position: relative; margin: 10px 0 30px; font-size: 12px; border-bottom: 1px solid #d7d5d5; border-top-color: #fff; color: #fff; line-height: 1.5; width: 100%; border: 0; border-spacing: 0; border-collapse: collapse; }
+
+	/*게시판 안의 헤더 */
+	.base_table thead { display: table-header-group; vertical-align: middle; border-color: inherit; }
+	.base_table thead tr.header_table_collection { display: table-row; vertical-align: inherit; border-color: inherit; }
+	.base_table thead tr.header_table_collection th { padding: 12px 0 11px; border-top: 1px solid #cacaca; border-bottom: 1px solid #cacaca; color: #353535; vertical-align: middle; font-weight: normal; background: #fff; }
+	
+	/* th별로 각각의 width 설정하기 */
+	.header_table_collection .tImg { width: 160px;}
+	.header_table_collection .tName { width: 350px;}
+	.header_table_collection .tSize { width: 50px;}
+	.header_table_collection .tCondition { width: 100px;}
+	.header_table_collection .tPrice { width: 120px;}
+	.header_table_collection .tMPrice { width: 120px;}
+	.header_table_collection .tPurchasing { width: 80px;}
+	.header_table_collection .tCurrent { width: 100px;}
+	
+	/*게시판 안의 바디 글들 */
+	.base_table tbody { display: table-row-group; vertical-align: middle; border-color: inherit; }
+	.base_table tbody tr.content_table_collection { display: table-row; vertical-align: inherit; border-color: inherit; background-color: #FFFFFF; color: #555555;}
+	.base_table tbody tr.content_table_collection td { padding: 10px 5px 13px; border-top: 1px solid #cacaca; border-bottom: 1px solid #cacaca; color: #353535; vertical-align: middle; text-align: center; font-size: 15px;}
+	.base_table tbody td.main_content { text-align: left; padding-left: 30px; }
+	.base_table tbody td.main_content a { text-decoration: none; color: #353535;}
+	
+	.content_table_collection td.total_table { background-color: #e3e3e3; font-weight: bold;}
+	/*추가하기 버튼 */
+	
+
+
+/* ─────────────────────────────────  PopUp 창 & InfoPopUp ────────────────────────────────────────────────────── */
+.popUp {
+  display: none; /* Hidden by default */ position: fixed; /* Stay in place */ z-index: 1; /* Sit on top */ padding-top: 110px; /* Location of the box */
+  left: 0; top: 0; width: 100%; /* Full width */ height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  z-index: 15;
+}
+
+.popUp2 {
+  display: none; /* Hidden by default */ position: fixed; /* Stay in place */ z-index: 1; /* Sit on top */ padding-top: 110px; /* Location of the box */
+  left: 0; top: 0; width: 100%; /* Full width */ height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  z-index: 16;
+  padding-bottom: 200px;
+}
+.popUpInfo {
+	display: none;
+	position:fixed; z-index:-1; 
+	left:0; width: 100%; height: 100%;
+	overflow: auto;
+	padding: 0;
+}
+
+/* PopUp 내용 */
+	/*전체*/
+	.popUp-content { display: block; background-color: #fefefe; margin: auto; border: 1px solid #888; width: 40%; }
+	.popUp-content2 { display: block; background-color: #fefefe; margin: auto; border: 1px solid #888; width: 40%; }
+
+	/* PopUp 헤더 */
+	.popUp-content-header { display: block; background-color: #343434; height: 60px; width: 100%; }
+
+	.popUp-span { float: left; font-weight: bold; font-size: 20px; color: #FFF; line-height: 60px; margin-left: 20px;}
+
+	/* The Close Button(X) */
+	.close { color: #aaaaaa; float: right; font-size: 35px; font-weight: bold; line-height: 60px; margin-right: 20px;}
+	.close:hover, .close:focus { color: #000; text-decoration: none; cursor: pointer; }
+
+	/* PopUp 검색창 */
+	.input_sneaker {padding: 20px; width: 100%; height: 50px; border: 1px; font-size: 15px;}
+
+	/* table */
+	.sneaker_table { text-align: center; height: 100px; width: 100%; border: none; }
+	
+	.image_column { width: 300px; height: 50px;}
+	.main_image_column { width: 300px; height: auto; }
+
+	/* 검색결과 pop-Up 창 - 찾은 신발의 버튼 */
+	.name_column {padding: 10px 0;}
+	.searched_button { width: 100%; height: 100%; background-color: transparent; margin-bottom: 15px;}
+	.searched_button:hover { background-color: transparent; color: #000;}
+	.showList .json_table1 tr td { height: 20px; padding: 0 10px;}
+	.showList .json_table1 tr td input { border: transparent; background-color: transparent; font-size: 30px; font-family: 'Oswald', sans-serif; width: 470px; text-transform: uppercase; }
+	
+		/* 신발 추가 란 pop-Up 창 */
+		.Sneaker_info_form { padding: 20px; }
+		
+		form div { font-size: 15px; width: 100%; padding: 20px;}
+		form.Sneaker_info_form span { font-weight: bold;}
+		form.Sneaker_info_form select { margin-top: 15px; height: 40px; width: 50%; }
+		form.Sneaker_info_form input.my_input { margin-top: 15px; height: 40px; width: 50%; }
+		form.Sneaker_info_form input[type=radio] { margin-top: 15px; width: 4%; }
+		form.Sneaker_info_form input[type=submit] { margin-top: 15px; width: 100%; height:40px; border: 1px solid #d4d8d9; color: #000; background-color: #F6F8F9;}
+		form.Sneaker_info_form input[type=submit]:hover { background-color: #eff2f3;}
+		form.Sneaker_info_form hr {margin-top:20px;}
+			
+		/* 마지막 추가 전 테이블 */
+		.json_table2 { border: 0px; margin-left: auto; margin-right: auto; width: 500px;}
+		.additional_info {padding:0; margin-top: 15px; margin-bottom: 15px;}
+		.showList2 { border-bottom: 1px solid #cacaca; }
+		.showList2 tr th{ padding: 10px 10px; height: 40px; width: 100px;}
+		.showList2 tr td { width: 350px; text-align: center;}
+		.showList2 tr td input{ padding: 10px 15px; margin-top:0; border: 0; height: 40px; font-size: 18px; background-color: transparent; color: black; width: 100%;}
+		
+		div.size_div select option { font-size: 15px; }
+		
+		
+		
+
+		
+
+
+
+
+
+
+
+
+
+ 

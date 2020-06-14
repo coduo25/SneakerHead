@@ -1,0 +1,286 @@
+@CHARSET "UTF-8";
+
+* { box-sizing: border-box; }
+html { width: 100%; height: 100%; }
+body { margin: 0; padding: 0; font: 0.75em Verdana,Dotum,AppleGothic,sans-serif;}
+div { display: block; }
+
+input, select, textarea {
+    font-size: 100%;
+    color: #353535;
+    vertical-align: middle;
+}
+
+#something {
+    margin: 0 auto;
+    background: #fff;
+    width: 100%;
+}
+
+#wrap {
+    width: 100%;
+    float: left;
+    margin: 0px auto 0;
+    background: #fff;
+}
+
+#container {
+    background: #fff;
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#container #contents1 {
+    width: 1200px;
+    margin: 0 auto;
+    display: block;
+}
+
+.titleArea {
+    margin: 40px auto 40px;
+    width: 100%;
+    text-align: center;
+}
+
+#joinForm {
+	margin-bottom: 50px;
+}
+
+.titleArea h2 {
+    display: inline-block;
+    margin: auto;
+    padding: 8px 70px;
+    font-family: 'Lato','NanumBarunGothic',Nanum Gothic,돋움,sans-serif;
+    color: #000;
+    *display: inline;
+    *zoom: 1;
+    border-bottom: 1px solid #cacaca;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.xans-member-join h3 {
+    padding: 10px 0 10px;
+    font-size: 13px;
+    color: #2e2e2e;
+}
+
+.xans-member-join .required {
+    margin: -25px 0 10px;
+    color: #353535;
+    text-align: right;
+}
+
+.ec-base-table table {
+    position: relative;
+    margin: 10px 0 0;
+    font-size: 12px;
+    border-bottom: 1px solid #d7d5d5;
+    border-top-color: #fff;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.ec-base-table table:before {
+    position: absolute;
+    top: 1px;
+    left: 0;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 0px;
+    background: #d7d5d5;
+}
+
+table {
+    width: 100%;
+    border: 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+th, td {
+    border: 0;
+    vertical-align: top;
+}
+
+.ec-base-table tbody th {
+    padding: 14px 0 13px 18px;
+    border-top: 1px solid #cacaca;
+    width: 160px;
+    border-bottom-width: 0;
+    color: #353535;
+    text-align: left;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+.ec-base-table th:first-child {
+    border-left: 0;
+}
+
+.ec-base-table img {
+    vertical-align: middle;
+}
+
+.ec-base-table td {
+    padding: 11px 10px 10px;
+    border-top: 1px solid #cacaca;
+    color: #353535;
+    vertical-align: middle;
+}
+
+.ec-base-table.typeWrite td:nth-child(2) {
+    padding: 8px 10px 7px;
+}
+
+input[type=text], input[type=password] {
+    height: 25px;
+    line-height: 20px;
+    padding: 2px 4px;
+    border: 1px solid #d5d5d5;
+    color: #353535;
+    font-size: 12px;
+}
+
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark-color(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    background-color: -internal-light-dark-color(white, black);
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+.xans-member-join #postcode {
+    width: 50px;
+    text-align: center;
+}
+
+.xans-member-join #addr1, .xans-member-join #addr2, .xans-member-join #addr3 {
+    width: 280px;
+    margin: 5px 0 0;
+}
+
+.ec-base-button {
+    padding: 20px 0px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+select {
+    height: 25px;
+    border: 1px solid #d5d5d5;
+}
+
+.xans-member-join #mobile1 {
+    width: 60px;
+    margin: 0 4px;
+}
+
+.xans-member-join #mobile2, .xans-member-join #mobile3 {
+	width: 70px;
+    margin: 0 4px;
+}
+
+.xans-member-join #email {
+    margin-right: 4px;
+}
+
+.btbt5 .rkd {
+    margin: 0px 0px 0px 1px;
+    clear: both;
+    background: #565656;
+    border: 1px solid #d4d8d9;
+    color: #fff;
+    font-family: '맑은 고딕','돋움',Dotum;
+    letter-spacing: 0px;
+    padding: 10px 50px;
+    text-align: right;
+    font-size: 11px;
+    border-radius: 0px;
+    font-weight: normal;
+}
+
+.btbt5 .rkd2 {
+    margin: 0px 0px 0px 1px;
+    clear: both;
+    background: #fff;
+    border: 1px solid #d4d8d9;
+    color: #757575;
+    font-family: '맑은 고딕','돋움',Dotum;
+    letter-spacing: 0px;
+    padding: 10px 50px;
+    text-align: right;
+    font-size: 11px;
+    border-radius: 0px;
+    font-weight: normal;
+}
+
+.ec-base-button .gRight {
+    position: absolute;
+    float: right;
+    text-align: right;
+    margin: 0px auto 0;
+    margin-left: 340px;
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

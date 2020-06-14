@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+
+#footer { float: left; background: #fff; width: 100%; padding: 0px 0 0px 0px; font-family: 'Noto Sans KR', sans-serif; color: #000; }
+#footer_inner { width: 100%; float: left; border-top: 2px solid #E1E1E1; }
+#footer .inner { overflow: hidden; position: relative; width: 1250px; margin: 50px auto; float: auto!important; }
+#footer .address { text-align: center; } 
+#footer .address span { padding: 0 10px; display: inline-block; text-transform: uppercase; font-size: 12px; line-height: 20px; }
+
+
+
+
+
+
+
+
+
+
