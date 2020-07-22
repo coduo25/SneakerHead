@@ -1,6 +1,6 @@
 # SneakerHead Project / 2020.01 - 2020.02
 <p align="center"> Main Page Preview </p>
-<p align="center"> <img src="./Project/Screenshots/mainpage.png" width="800px"> </p>
+<p align="center"> <img src="./Project/Screenshots/mainpage.png" width="600px"> </p>
 <br>
 
 ## 주제
@@ -39,5 +39,18 @@
 * 나의 신발장 관리 게시판
 * 관리자/일반 사용자 글쓰기/수정 기능
 
+## DB 구성 - ER Diagram
+<p align="center"> <img src="./Project/Screenshots/ERdiagram.png" width="800px"> </p>
+
+<br>
+
 ## 기능구현
-  
+
+### 메인 페이지 배너
+<img src="./Project/Screenshots/banner.gif" width="500px">
+
+
+
+### 
+
+
