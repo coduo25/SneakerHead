@@ -68,15 +68,13 @@
 <img src="./Project/Screenshots/image_board.png" width="700px">
 
 * 전체 게시판, 전체 num 컬럼으로 전체 게시판 리스트 뿌려주기. (특정 게시판은 board_type, re_ref 컬럼으로 리스트 뿌려주기)
-<img src="./Project/Screenshots/all_board.png" width="700px"> <br>
-<img src="./Project/Screenshots/all_board2.png" width="600px">
+<p> <img src="./Project/Screenshots/all_board.png" width="700px"> <img src="./Project/Screenshots/all_board2.png" width="600px"> </p>
 
 <br>
 
 ### 글쓰기 form
 * 네이버 스마트 에디터 api를 이용하여 이미지 파일 업로드가 가능한 글쓰기 구현.
-<img src="./Project/Screenshots/write1.png" width="500px"> <br>
-<img src="./Project/Screenshots/write2.png" width="200px">  
+<p> <img src="./Project/Screenshots/write1.png" width="500px"> <img src="./Project/Screenshots/write2.png" width="200px"> </p>
 
 <br>
 
