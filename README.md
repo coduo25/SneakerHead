@@ -2,6 +2,7 @@
 <p align="center"> Main Page Preview </p>
 <p align="center"> <img src="./Project/Screenshots/mainpage.png" width="800px"> </p>
 <br>
+
 ## 주제
 > 프리미엄 신발 관련 커뮤니티 웹 서비스
 
