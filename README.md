@@ -27,13 +27,13 @@
 
 ## 개요
 
-### SneakerHouse 소개
+> ### SneakerHouse 소개
 프리미엄 신발 관련 발매 정보, 착샷 게시판 등 커뮤니케이션을 하기 위한 웹 서비스
 
-### 선정이유
+> ### 선정이유
 현재 운영중인 신발 관련 커뮤니티에서 밴치마킹을 통해 고쳐야할 부분은 개선하고 더 깔끔한 디자인의 커뮤니티를 만들기 위함
 
-### 주요기능
+> ### 주요기능
 * 발매 정보 게시판
 * 착샷/신발장/셀럽들 이미지 게시판
 * 나의 신발장 관리 게시판
@@ -49,37 +49,37 @@
 ### 메인 페이지 배너
 * 자바스크립트로 Slide 함수를 만들어 직접 제작한 3가지 종류의 이미지를 넣어서 만듬.
 * 이미지 클릭시, 해당 페이지로 갈수 있도록 링크 걸어둠.
-> <img src="./Project/Screenshots/banner.gif" width="700px">
+<img src="./Project/Screenshots/banner.gif" width="700px">
 
 <br>
 
 ### 회원가입
 * jQuery를 활용하여 아이디, 비밀번호, 비밀번호 확인, 이메일란 유효성 검사하기.
 * 유효성 검사를 하는 동시에 Ajax를 활용한 아이디 및 이메일 중복 확인 검사하기.
-> <img src="./Project/Screenshots/joinForm.gif" width="800px">
+<img src="./Project/Screenshots/joinForm.gif" width="800px">
 
 <br>
 
 ### 게시판
 * 모든 게시판, 글 상단부에 최근 공지사항 글 5개를 DB에서 가지고 와서 뿌려줌.
-> <img src="./Project/Screenshots/board1.png" width="700px">
+<img src="./Project/Screenshots/board1.png" width="700px">
 * 이미지 게시판
-> <img src="./Project/Screenshots/image_board.png" width="700px">
+<img src="./Project/Screenshots/image_board.png" width="700px">
 * 전체 게시판 : 전체 num 컬럼으로 전체 게시판 리스트 뿌려주기 (특정 게시판은 board_type, re_ref 컬럼으로 리스트 뿌려주기)
-> <img src="./Project/Screenshots/all_board.png" width="700px"> <img src="./Project/Screenshots/all_board2.png" width="600px">
+<img src="./Project/Screenshots/all_board.png" width="700px"> <img src="./Project/Screenshots/all_board2.png" width="600px">
 
 
 <br>
 
 ### 글쓰기 form
 * 네이버 스마트 에디터 api를 이용하여 이미지 파일 업로드가 가능한 글쓰기 구현.
-> <img src="./Project/Screenshots/write1.png" width="500px"> <img src="./Project/Screenshots/write2.png" width="200px">  
+<img src="./Project/Screenshots/write1.png" width="500px"> <img src="./Project/Screenshots/write2.png" width="200px">  
 
 <br>
 
 ### 나의 신발장
 * Ajax를 활용하여 검색한 글자를 토대로 DB에서 리스트 가져오기
-> <img src="./Project/Screenshots/my_locker.gif" width="1000px">
+<img src="./Project/Screenshots/my_locker.gif" width="800px">
 
 
 
