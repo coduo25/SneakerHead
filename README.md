@@ -1,4 +1,5 @@
 # SneakerHead Project / 2020.01 - 2020.02
+<p align="center"> Main Page Preview </p>
 <p align="center"> <img src="./Project/Screenshots/mainpage.png" width="800px"> </p>
 
 ## 주제
