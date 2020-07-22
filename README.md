@@ -1,5 +1,5 @@
 # SneakerHead Project 
-<img src="http://github.com/SneakerHead/Project/Screenshots/mainpage.png"> </a>
+<img src="http://github.com/SneakerHead/Project/Screenshots/mainpage.png" width="500px"> </a>
 
 ## 주제
 프리미엄 신발 관련 커뮤니티 웹 서비스
