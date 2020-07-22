@@ -63,11 +63,12 @@
 ### 게시판
 * 모든 게시판, 글 상단부에 최근 공지사항 글 5개를 DB에서 가지고 와서 뿌려줌.
 <img src="./Project/Screenshots/board1.png" width="700px">
+
 * 이미지 게시판
 <img src="./Project/Screenshots/image_board.png" width="700px">
+
 * 전체 게시판 : 전체 num 컬럼으로 전체 게시판 리스트 뿌려주기 (특정 게시판은 board_type, re_ref 컬럼으로 리스트 뿌려주기)
 <img src="./Project/Screenshots/all_board.png" width="700px"> <img src="./Project/Screenshots/all_board2.png" width="600px">
-
 
 <br>
 
@@ -81,6 +82,6 @@
 * Ajax를 활용하여 검색한 글자를 토대로 DB에서 리스트 가져오기
 <img src="./Project/Screenshots/my_locker.gif" width="800px">
 
-
+<br>
 
 
