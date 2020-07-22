@@ -62,6 +62,11 @@
 
 ### 게시판
 * 모든 게시판, 글 상단부에 최근 공지사항 글 5개를 DB에서 가지고 와서 뿌려줌.
+> <img src="./Project/Screenshots/board1.png" width="700px">
 
+<br>
 
+### 글쓰기 form
+* 네이버 스마트 에디터 api를 이용하여 이미지 파일 업로드가 가능한 글쓰기 구현.
+> <img src="./Project/Screenshots/write1.png" width="500px"> <img src="./Project/Screenshots/write2.png" width="200px">  
 
