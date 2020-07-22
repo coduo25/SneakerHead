@@ -1,14 +1,28 @@
 # SneakerHead Project / 2020.01 - 2020.02
 <p align="center"> Main Page Preview </p>
 <p align="center"> <img src="./Project/Screenshots/mainpage.png" width="800px"> </p>
-
-#
-
+<br>
 ## 주제
-프리미엄 신발 관련 커뮤니티 웹 서비스
+> 프리미엄 신발 관련 커뮤니티 웹 서비스
 
 ## 개발환경
 
+* 개발도구
+  * Eclipse Neon 3 v4.6.3
+  * MySQL WorkBench v8.0.17
+  <br>
+* 언어
+  * JAVA SE1.8 (JDK 8)
+  * JSP (model 1)
+  * MySQL
+  * HTML5/CSS3
+  * JavaScript/Jquery
+  <br>
+* 서버(WAS)
+  * Apache Tomcat v8.5
+  <br>
+* 커뮤니티
+  * Google Document / Github
 
 ## 개요
 
