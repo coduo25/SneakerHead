@@ -1,11 +1,11 @@
-# SneakerHead Project 
-<img src="./Project/Screenshots/mainpage.png" width="500px">
+# SneakerHead Project
+<center> <img src="./Project/Screenshots/mainpage.png" width="800px"> </center>
 
 ## 주제
 프리미엄 신발 관련 커뮤니티 웹 서비스
 
-## 개요
-
+## SneakerHouse 소개
+프리미엄 신발 관련 발매 정보, 착샷 게시판 등 커뮤니케이션을 하기 위한 웹 서비스
 
 
 ## 밴치마킹
