@@ -40,17 +40,20 @@
 * 관리자/일반 사용자 글쓰기/수정 기능
 
 ## DB 구성 - ER Diagram
-<p align="center"> <img src="./Project/Screenshots/ERdiagram.png" width="800px"> </p>
+<p align="center"> <img src="./Project/Screenshots/ERdiagram.png" width="700px"> </p>
 
 <br>
 
 ## 기능구현
 
 ### 메인 페이지 배너
-<img src="./Project/Screenshots/banner.gif" width="500px">
+* 자바스크립트로 Slide 함수를 만들어 직접 제작한 3가지 종류의 이미지를 넣어서 만듬.
+* 이미지 클릭시, 해당 페이지로 갈수 있도록 링크 걸어둠.
+> <img src="./Project/Screenshots/banner.gif" width="500px">
 
-
-
-### 
+### 회원가입
+* jQuery를 활용하여 아이디, 비밀번호, 비밀번호 확인, 이메일란 유효성 검사하기.
+* 유효성 검사를 하는 동시에 Ajax를 활용한 아이디 및 이메일 중복 확인 검사하기.
+> <img src="./Project/Screenshots/joinForm.gif" width="500px">
 
 
