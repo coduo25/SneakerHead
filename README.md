@@ -51,11 +51,17 @@
 * 이미지 클릭시, 해당 페이지로 갈수 있도록 링크 걸어둠.
 > <img src="./Project/Screenshots/banner.gif" width="700px">
 
+<br>
 
 ### 회원가입
 * jQuery를 활용하여 아이디, 비밀번호, 비밀번호 확인, 이메일란 유효성 검사하기.
 * 유효성 검사를 하는 동시에 Ajax를 활용한 아이디 및 이메일 중복 확인 검사하기.
 > <img src="./Project/Screenshots/joinForm.gif" width="700px">
+
+<br>
+
+### 게시판
+* 모든 게시판, 글 상단부에 최근 공지사항 글 5개를 DB에서 가지고 와서 뿌려줌.
 
 
 
