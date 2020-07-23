@@ -63,6 +63,7 @@
 ## 회원가입 form
 * `jQuery`를 활용하여 아이디, 비밀번호, 비밀번호 확인, 이메일란 유효성 검사하기.
 * 유효성 검사를 하는 동시에 `Ajax`를 활용한 아이디 및 이메일 중복 확인 검사하기.
+* `DAUM 우편번호 API`를 활용하여 주소 찾기 구현.
 <img src="./Project/Screenshots/joinForm.gif" width="800px">
 
 <br>
