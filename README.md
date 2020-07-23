@@ -45,13 +45,13 @@
 
 ## 기능구현 
 [* 메인 페이지](#메인-페이지-배너)
-* 회원가입 form
-* 게시판
-  * 전체 게시판
-  * 일반 게시판
-  * 이미지 게시판
-* 글쓰기 form
-* 나의 신발장
+[* 회원가입 form](#회원가입-form)
+[* 게시판](#게시판)
+  [* 전체 게시판](#전체-게시판)
+  [* 일반 게시판](#일반-게시판)
+  [* 이미지 게시판](#이미지-게시판)
+[* 글쓰기 form](#글쓰기-form)
+[* 나의 신발장](#나의-신발장)
 
 
 ## 메인 페이지 배너
@@ -61,7 +61,7 @@
 
 <br>
 
-## 회원가입
+## 회원가입 form
 * `jQuery`를 활용하여 아이디, 비밀번호, 비밀번호 확인, 이메일란 유효성 검사하기.
 * 유효성 검사를 하는 동시에 `Ajax`를 활용한 아이디 및 이메일 중복 확인 검사하기.
 <img src="./Project/Screenshots/joinForm.gif" width="800px">
@@ -70,17 +70,19 @@
 
 ## 게시판
 
-* 전체 게시판, 전체 num 컬럼으로 전체 게시판 리스트 뿌려주기. (특정 게시판은 board_type, re_ref 컬럼으로 리스트 뿌려주기)
+### 전체 게시판
+* 전체 num 컬럼으로 전체 게시판 리스트 뿌려주기. (특정 게시판은 board_type, re_ref 컬럼으로 리스트 뿌려주기)
 <p> <img src="./Project/Screenshots/all_board.png" width="700px"> <img src="./Project/Screenshots/all_board2.png" width="600px"> </p>
 
 <br>
 
-* 일반 게시판, 글 상단부에 최근 공지사항 글 5개를 DB에서 가지고 와서 뿌려줌.
+### 일반 게시판
+* 글 상단부에 최근 공지사항 글 5개를 DB에서 가지고 와서 뿌려줌.
 <img src="./Project/Screenshots/board1.png" width="700px">
 
 <br>
 
-* 이미지 게시판
+### 이미지 게시판
 <img src="./Project/Screenshots/image_board.png" width="700px">
 
 <br>
