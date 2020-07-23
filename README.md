@@ -54,7 +54,7 @@
 <br>
 
 ## 메인 페이지 배너
-* 자바스크립트로 `Slide` 함수를 만들어 직접 제작한 3가지 종류의 이미지를 넣어서 만듬.
+* `JavaScript`을 활용하여, `Slide` 함수를 만들어 직접 제작한 3가지 종류의 이미지를 넣어서 만듬.
 * 이미지 클릭시, 해당 페이지로 갈수 있도록 링크 걸어둠.
 <img src="./Project/Screenshots/banner.gif" width="700px">
 
