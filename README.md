@@ -15,7 +15,6 @@
 * 언어
   * JAVA SE1.8 (JDK 8)
   * JSP (model 1)
-  * MySQL
   * HTML5/CSS3
   * JavaScript/Jquery
   <br>
