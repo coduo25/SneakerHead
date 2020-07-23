@@ -9,17 +9,17 @@
 ## 개발환경
 
 * 개발도구
-  * Eclipse Neon 3 v4.6.3
-  * MySQL WorkBench v8.0.17
+  * Eclipse Neon 3 `v4.6.3`
+  * MySQL WorkBench `v8.0.17`
   <br>
 * 언어
-  * JAVA SE1.8 (JDK 8)
-  * JSP (model 1)
+  * JAVA SE1.8 `JDK 8`
+  * JSP `model 1`
   * HTML5/CSS3
   * JavaScript/Jquery
   <br>
 * 서버(WAS)
-  * Apache Tomcat v8.5
+  * Apache Tomcat `v8.5`
   <br>
 * 커뮤니티
   * Google Document / Github
@@ -41,8 +41,6 @@
 ## DB 구성 - ER Diagram
 <p align="center"> <img src="./Project/Screenshots/ERdiagram.png" width="700px"> </p>
 
-<br>
-
 ## 기능구현 
 * [메인 페이지](#메인-페이지-배너)
 * [회원가입 form](#회원가입-form)
@@ -53,6 +51,7 @@
 * [글쓰기 form](#글쓰기-form)
 * [나의 신발장](#나의-신발장)
 
+<br>
 
 ## 메인 페이지 배너
 * 자바스크립트로 `Slide` 함수를 만들어 직접 제작한 3가지 종류의 이미지를 넣어서 만듬.
