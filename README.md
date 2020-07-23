@@ -46,15 +46,15 @@
 ## 기능구현
 
 ### 메인 페이지 배너
-* 자바스크립트로 Slide 함수를 만들어 직접 제작한 3가지 종류의 이미지를 넣어서 만듬.
+* 자바스크립트로 'Slide' 함수를 만들어 직접 제작한 3가지 종류의 이미지를 넣어서 만듬.
 * 이미지 클릭시, 해당 페이지로 갈수 있도록 링크 걸어둠.
 <img src="./Project/Screenshots/banner.gif" width="700px">
 
 <br>
 
 ### 회원가입
-* jQuery를 활용하여 아이디, 비밀번호, 비밀번호 확인, 이메일란 유효성 검사하기.
-* 유효성 검사를 하는 동시에 Ajax를 활용한 아이디 및 이메일 중복 확인 검사하기.
+* 'jQuery'를 활용하여 아이디, 비밀번호, 비밀번호 확인, 이메일란 유효성 검사하기.
+* 유효성 검사를 하는 동시에 'Ajax'를 활용한 아이디 및 이메일 중복 확인 검사하기.
 <img src="./Project/Screenshots/joinForm.gif" width="800px">
 
 <br>
@@ -72,13 +72,14 @@
 <br>
 
 ### 글쓰기 form
-* 네이버 스마트 에디터 api를 이용하여 이미지 파일 업로드가 가능한 글쓰기 구현.
+* '네이버 스마트 에디터 api'를 이용하여 이미지 파일 업로드가 가능한 글쓰기 구현.
 <p> <img src="./Project/Screenshots/write1.png" width="500px"> <img src="./Project/Screenshots/write2.png" width="200px"> </p>
 
 <br>
 
 ### 나의 신발장
-* Ajax를 활용하여 검색한 글자를 토대로 DB에서 리스트 가져오기.
+* 소개: 본인이 가지고 있는 신발들을 추가하여 도표를 통해 정리할수 있는 페이지.
+* 추가하기 버튼(검색기능): 'Ajax'를 활용하여 검색한 글자를 토대로 DB에서 리스트 가져오기.
 <img src="./Project/Screenshots/my_locker.gif" width="800px">
 
 <br>
